@@ -1,4 +1,4 @@
-INSERT INTO department(name)
+INSERT INTO department (name)
 VALUES
 ('Engineering & Technology'), 
 ('Sales, Service & Support'), 
@@ -8,20 +8,20 @@ VALUES
 ('Finance'),
 ('Legal');
 
-INSERT INTO roles (title, salary, department_id)
+INSERT INTO roles (title, salary)
 VALUES
-('Software Engineer', 70000, 123),
-('Product Manager', 50000, 156),
-('Sales Engineer', 42000, 167),
-('Technical Program Manager' 52000, 198),
-('Technical Solutions', 56000, 167),
-('Electrical Engineer', 67000, 176),
-('Test Engineer', 78000, 145),
-('Network Engineer', 74000, 118),
-('Sourcing/Supply Chain', 52000, 112),
-('Systems Integrator', 65000, 187),;
+('Software Engineer', 70000),
+('Product Manager', 50000),
+('Sales Engineer', 42000),
+('Technical Program Manager', 52000),
+('Technical Solutions', 56000),
+('Electrical Engineer', 67000),
+('Test Engineer', 78000),
+('Network Engineer', 74000),
+('Sourcing/Supply Chain', 52000),
+('Systems Integrator', 65000);
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, roles_id, manager_id)
 VALUES
 ('Ronald', 'Firbank', 1, 1),
   ('Virginia', 'Woolf', 1, 1),
@@ -32,4 +32,4 @@ VALUES
   ('Edward', 'Bellamy', 3, 0),
   ('Montague', 'Summers', 3, 1),
   ('Octavia', 'Butler', 3, 1),
-  ('Unica', 'Zurn', 1, 1);;
+  ('Unica', 'Zurn', 1, 1);
