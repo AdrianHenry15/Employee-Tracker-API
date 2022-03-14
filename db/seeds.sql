@@ -1,4 +1,4 @@
-INSERT INTO department (name)
+INSERT INTO departments (name)
 VALUES
 ('Engineering & Technology'), 
 ('Sales, Service & Support'), 
@@ -21,7 +21,7 @@ VALUES
 ('Sourcing/Supply Chain', 52000),
 ('Systems Integrator', 65000);
 
-INSERT INTO employee (first_name, last_name, roles_id, manager_id)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
 ('Ronald', 'Firbank', 1, 1),
   ('Virginia', 'Woolf', 1, 1),
