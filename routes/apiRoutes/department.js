@@ -28,7 +28,7 @@ router.get('/department/:id', (req, res) => {
     LEFT JOIN employee ON roles.id = employee.roles_id
     WHERE department.id = ?`;
 
-    db.squery(sql, (err, rows) => {
+    db.query(sql, (err, rows) => {
         if (err) {
             res.status(501).json({ error: err.message });
             return;
