@@ -1,10 +1,11 @@
 const mysql = require('mysql2');
+require("dotenv").config();
 
 // Connection to Database
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Breakup#1',
+    password: process.env.PASS,
     database: 'etrak'
 });
 
