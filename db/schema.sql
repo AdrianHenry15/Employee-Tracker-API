@@ -26,8 +26,8 @@ CREATE TABLE employees (
      last_name VARCHAR(30),
      role_id INTEGER,
      manager_id INTEGER REFERENCES employees(id),
-     CONSTRAINT fk_roles 
-     FOREIGN KEY (roles_id) 
+     CONSTRAINT fk_role 
+     FOREIGN KEY (role_id) 
      REFERENCES roles(id) 
      ON DELETE CASCADE
 );
