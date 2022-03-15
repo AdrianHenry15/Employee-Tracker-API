@@ -19,7 +19,7 @@ Node.js
 Node.js, Inquirer, Mysql, Mysql2, Dotenv, Figlet, and Console.table
 
 # Usage
-[![Walkthrough](https://img.youtube.com/vi/https://youtu.be/on7U9ZpjiNc/0.jpg)](https://www.youtube.com/watch?v=https://youtu.be/on7U9ZpjiNc)
+[![Walkthrough](https://img.youtube.com/vi/https://https://youtu.be/on7U9ZpjiNc/0.jpg)](https://www.youtube.com/watch?v=https://https://youtu.be/on7U9ZpjiNc)
 # Contributors: 
 Adrian Henry
 # Tests
