@@ -19,7 +19,7 @@ Node.js
 Node.js, Inquirer, Mysql, Mysql2, Dotenv, Figlet, and Console.table
 
 # Usage
-[![Walkthrough Video](http://img.youtube.com/vi/https://youtu.be/on7U9ZpjiNc/0.jpg)](http://www.youtube.com/watch?v=on7U9ZpjiNc "Employee Tracker with Node.js and Inquirer by Adrian Henry")
+[Walkthrough Video](https://www.youtube.com/watch?v=on7U9ZpjiNc)
 # Contributors: 
 Adrian Henry
 # Tests
