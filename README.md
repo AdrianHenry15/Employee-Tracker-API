@@ -1,4 +1,4 @@
-# ETrak - An Employee Tracker API
+# Employee Tracker API
 # Description
 An application that lets the user view and manage the departments, roles, and employees in that users
  company so that the user can organize and plan their business.
